@@ -149,6 +149,32 @@ h6,
   visibility: visible;
 }
 
+
+
+  @media (prefers-reduced-motion:no-preference) {
+  [word-animation] {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1ch
+  }
+}
+
+@media (prefers-reduced-motion:no-preference) and (hover) {
+  [word-animation=hover] {
+    overflow: hidden;
+    overflow: clip
+  }
+
+  [word-animation=hover]>span {
+    transition: transform .3s ease;
+    cursor: pointer
+  }
+
+  [word-animation=hover]>span:not(:hover) {
+    transform: translateY(50%)
+  }
+}
+        
 .h3 {
   font-size: 20px;
 }
@@ -295,31 +321,12 @@ h6,
   height: auto;
   margin: 0;
 }
-
- @media (prefers-reduced-motion:no-preference) {
-  word-animation {
-    display: inline-flex;
-    flex-wrap: wrap;
-    gap: 1ch
+@media (max-width: 780px) {
+  .custom-navbar > .container {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
-
-@media (prefers-reduced-motion:no-preference) and (hover) {
-  word-animation=hover {
-    overflow: hidden;
-    overflow: clip
-  }
-
-  word-animation=hover>span {
-    transition: transform .3s ease;
-    cursor: pointer
-  }
-
-  word-animation=hover>span:not(:hover) {
-    transform: translateY(50%)
-  }
-}
-        
 
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
