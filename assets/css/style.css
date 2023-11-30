@@ -151,7 +151,7 @@ h6,
 
 
 
-  @media (prefers-reduced-motion:no-preference) h2.
+  @media (prefers-reduced-motion:no-preference)
   [word-animation] {
     display: inline-flex;
     flex-wrap: wrap;
@@ -159,18 +159,18 @@ h6,
   }
 }
 
-@media (prefers-reduced-motion:no-preference) and (hover) h2.{
+@media (prefers-reduced-motion:no-preference) and (hover){
   [word-animation=hover] {
     overflow: hidden;
     overflow: clip
   }
 
- h2. [word-animation=hover]>span {
+[word-animation=hover]>span {
     transition: transform .3s ease;
     cursor: pointer
   }
 
-  h2.[word-animation=hover]>span:not(:hover) {
+  [word-animation=hover]>span:not(:hover) {
     transform: translateY(50%)
   }
 }
