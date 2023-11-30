@@ -4,6 +4,9 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
+
+import {byLetter, byWord} from './splitting.js'
+
 (function () {
   "use strict";
 
