@@ -63,12 +63,11 @@
   top: 43%;
   width: 100%;
 }
-
 .denied__link {
   background: none;
   color: #fff;
   padding: 12px 0px 10px 0px;
-  border: 1px solid #10002b;
+  border: 1px solid #000000;
   outline: none;
   border-radius: 7px;
   width: 150px;
@@ -88,3 +87,4 @@
   border-color: #ffbb39;
   cursor: pointer;
   opacity: 1;
+}
