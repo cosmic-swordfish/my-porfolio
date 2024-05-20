@@ -1,12 +1,4 @@
 
-.permission_denied {
-  background: #FFFFFF !important;
-}
-
-.permission_denied a {
-  text-decoration: none;
-}
-
 .denied__wrapper {
   max-width: 390px;
   width: 100%;
