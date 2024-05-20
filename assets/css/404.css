@@ -1,73 +1,59 @@
-
-.denied__wrapper {
-  max-width: 390px;
-  width: 100%;
-  height: 390px;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  margin-top: 8vh;
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* Background color set to white */
+    font-family: 'Montserrat', sans-serif;
+    color: #10002b; /* Text color set to #10002b */
 }
 
-.permission_denied h1 {
-  text-align: center;
-  color: #10002b;
-  font-family: Montserrat;
-  font-size: 38px;
-  line-height: 43.5px;
-  letter-spacing: 13.5px;
-  margin-bottom: 0px;
-  font-weight: 400;
+.container {
+    text-align: center;
 }
 
-.permission_denied h3 {
-  text-align: center;
-  color: #10002b;
-  font-size: 24px;
-  line-height: 26px;
-  letter-spacing: 0.96px;
-  max-width: 330px;
-  margin: 0px auto 30px auto;
-  font-family: Montserrat;
-  font-weight: 400;
+.nyan-cat {
+    width: 300px;
+    height: auto;
 }
 
-.permission_denied h3 span {
-  position: relative;
-  width: 65px;
-  display: inline-block;
+
+
+.error-message {
+    font-size: 24px; /* Font size set to 24px */
+    font-weight: 400;
+    margin: 10px 0;
+    color: #10002b; /* Text color set to #10002b */
+    text-align: center; /* Text alignment set to center */
+    line-height: 26px; /* Line height set to 26px */
+    letter-spacing: 1px; /* Letter spacing set to 1px */
 }
 
-.permission_denied h3 span:after {
-  content: "";
-  border-bottom: 3px solid #ffbb39;
-  position: absolute;
-  left: 0;
-  top: 43%;
-  width: 100%;
-}
-.denied__link {
-  background: none;
-  color: #10002b;
-  padding: 12px 0px 10px 0px;
-  border: 1px solid #000000;
-  outline: none;
-  border-radius: 7px;
-  width: 150px;
-  font-size: 15px;
-  text-align: center;
-  margin: 0 auto;
-  vertical-align: middle;
-  display: block;
-  margin-bottom: 40px;
-  margin-top: 25px;
-  font-family: Montserrat;
-  font-weight: 400;
+.error-submessage {
+    font-size: 38px; /* Font size set to 38px */
+    font-weight: 400;
+    color: #10002b; /* Text color set to #10002b */
+    text-align: center; /* Text alignment set to center */
+    line-height: 45px; /* Line height set to 45px */
+    letter-spacing: 14px; /* Letter spacing set to 14px */
 }
 
-.denied__link:hover {
-  color: #ffbb39;
-  border-color: #ffbb39;
-  cursor: pointer;
-  opacity: 1;
+.home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
 }
