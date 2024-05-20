@@ -37,7 +37,7 @@
   line-height: 43.5px;
   letter-spacing: 13.5px;
   margin-bottom: 0px;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .permission_denied h3 {
@@ -68,7 +68,7 @@
 }
 .denied__link {
   background: none;
-  color: #fff;
+  color: #10002b;
   padding: 12px 0px 10px 0px;
   border: 1px solid #000000;
   outline: none;
