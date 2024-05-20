@@ -31,7 +31,7 @@
 
 .permission_denied h1 {
   text-align: center;
-  color: #fff;
+  color: #10002b;
   font-family: Montserrat;
   font-size: 100px;
   margin-bottom: 0px;
@@ -40,7 +40,7 @@
 
 .permission_denied h3 {
   text-align: center;
-  color: #fff;
+  color: #10002b;
   font-size: 19px;
   line-height: 23px;
   max-width: 330px;
@@ -68,7 +68,7 @@
   background: none;
   color: #fff;
   padding: 12px 0px 10px 0px;
-  border: 1px solid #fff;
+  border: 1px solid #10002b;
   outline: none;
   border-radius: 7px;
   width: 150px;
