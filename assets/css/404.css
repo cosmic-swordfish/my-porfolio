@@ -1,1 +1,6 @@
-
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #10002b;
+  font-size: 1.2rem;
+}
