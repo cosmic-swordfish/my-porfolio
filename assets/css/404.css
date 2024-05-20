@@ -34,6 +34,8 @@
   color: #10002b;
   font-family: Montserrat;
   font-size: 38px;
+  line-height: 43.5px;
+  letter-spacing: 13.5px;
   margin-bottom: 0px;
   font-weight: 800;
 }
@@ -42,7 +44,8 @@
   text-align: center;
   color: #10002b;
   font-size: 24px;
-  line-height: 23px;
+  line-height: 26px;
+  letter-spacing: 0.96px;
   max-width: 330px;
   margin: 0px auto 30px auto;
   font-family: Montserrat;
