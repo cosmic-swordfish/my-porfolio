@@ -37,6 +37,9 @@ body {
     width: 200px; /* Medium size */
     height: auto;
     margin-top: 20px; /* Add some margin to separate it from the text */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-button {
