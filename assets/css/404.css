@@ -33,15 +33,6 @@ body {
     letter-spacing: 14px; /* Letter spacing set to 14px */
 }
 
-.nyan-cat {
-    width: 200px; /* Medium size */
-    height: auto;
-    margin-top: 20px; /* Add some margin to separate it from the text */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .home-button {
     display: inline-block;
     margin-top: 20px;
