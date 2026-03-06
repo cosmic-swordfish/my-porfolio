@@ -15,22 +15,22 @@ body {
 }
 
 .error-message {
-    font-size: 24px; /* Font size set to 24px */
+    font-size: 24px;
     font-weight: 400;
     margin: 10px 0;
-    color: #10002b; /* Text color set to #10002b */
-    text-align: center; /* Text alignment set to center */
-    line-height: 26px; /* Line height set to 26px */
-    letter-spacing: 1px; /* Letter spacing set to 1px */
+    color: #10002b;
+    text-align: center;
+    line-height: 1.1;
+    letter-spacing: 1px;
 }
 
 .error-submessage {
-    font-size: 38px; /* Font size set to 38px */
+    font-size: 38px;
     font-weight: 400;
-    color: #10002b; /* Text color set to #10002b */
-    text-align: center; /* Text alignment set to center */
-    line-height: 45px; /* Line height set to 45px */
-    letter-spacing: 14px; /* Letter spacing set to 14px */
+    color: #10002b;
+    text-align: center;
+    line-height: 1.15;     /* ← key change here */
+    letter-spacing: 3px;
 }
 
 .home-button {
